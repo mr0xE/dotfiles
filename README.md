@@ -1,2 +1,2 @@
 # dotfiles
-My .dotfile configs. .bashrc .inputrc
+.bashrc, .vimrc, .tmux.config etc
