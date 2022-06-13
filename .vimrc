@@ -1,29 +1,23 @@
-" Vundle
-filetype off
+" Vim-Plug
 
-let g:vundle_default_git_proto = 'git'
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin()
 
 " Bundles
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'sjl/gundo.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'bling/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'scrooloose/nerdtree'
-Plugin 'TomNomNom/xoria256.vim'
-Plugin 'fatih/vim-go'
-Plugin 'rust-lang/rust.vim'
-Plugin 'ryanoasis/vim-devicons'
 
-call vundle#end()
+Plug 'tpope/vim-fugitive'
+Plug 'sjl/gundo.vim'
+Plug 'godlygeek/tabular'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'TomNomNom/xoria256.vim'
+Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
+Plug 'ryanoasis/vim-devicons'
 
-" Required for vundle
-"filetype plugin indent on
-filetype plugin on
+" Initialize plugin system
+call plug#end()
 
 let mapleader = ","
 
