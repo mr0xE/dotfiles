@@ -91,6 +91,3 @@ xterm*|rxvt*)
 	PS1="\[\e]0;\u@\h: \w\a\]$PS1"
 	;;
 esac
-
-eval "$(starship init bash)"
-
