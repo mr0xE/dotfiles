@@ -43,14 +43,6 @@ burl(){
     cat "$@" | httprobe -t 20000 -prefer-https | parallel -j 10 curl -o /dev/null {}/ -x 127.0.0.1:8080
 }
 
-simpleserver(){
-    simplehttpserver
-}
-
-selectnord(){
-    bash $HOME/tools/nord-rec/nord-rec -c "$1" -t wireguard_udp -n 20
-}
-
 copy2clip(){
     cat "$@" | clip.exe
 }
