@@ -33,3 +33,5 @@
   path = .gitlocal
 [url "ssh://git@heroku.com/"]
 	insteadOf = https://git.heroku.com/
+[url "https://github"]
+	insteadOf = git://github

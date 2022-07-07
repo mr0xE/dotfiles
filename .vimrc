@@ -121,6 +121,9 @@ cnoremap <C-e> <End>
 "quit without writing
 map <C-x> :q!<CR>
 
+"write and quit
+map <C-w> :wq!<CR>
+
 " Base64 decode word under cursor
 nmap <Leader>b :!echo <C-R><C-W> \| base64 -d<CR>
 
